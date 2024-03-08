@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minha Aplicação Web</title>
+    <link rel="icon" href="{{ url_for('src/static', filename='logo.png') }}" sizes="16x16 32x32 48x48">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('src/static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Pontos cadastrados</h1>
+    <p>{{dados}}</p>
+</body>
+</html>
